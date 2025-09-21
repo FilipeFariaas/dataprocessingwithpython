@@ -1,7 +1,7 @@
 Var_Id,Característica,Descrição
 1,ID_CLIENTE,Número sequencial para o requerente (a ser usado como chave)
 2,TIPO_FUNCIONARIO,Não informado
-3,DIA_PAGAMENTO,"Dia do mês para o pagamento da fatura, escolhido pelo requerente"
+3,DIA_PAGAMENTO,Dia do mês para o pagamento da fatura escolhido pelo requerente
 4,TIPO_ENVIO_APLICACAO,Indica se a aplicação foi submetida via internet ou pessoalmente/enviada pelo correio
 5,QUANT_CARTOES_ADICIONAIS,Quantidade de cartões adicionais solicitados no mesmo formulário de aplicação
 6,TIPO_ENDERECO_POSTAL,Indica se o endereço para envio é o endereço residencial ou outro. Codificação não informada.
@@ -11,13 +11,13 @@ Var_Id,Característica,Descrição
 10,NIVEL_EDUCACIONAL,Nível educacional em ordem gradual não informado
 11,ESTADO_NASCIMENTO,
 12,CIDADE_NASCIMENTO,
-13,NACIONALIDADE,"País de nascimento. Codificação não informada, mas é provável que o Brasil seja igual a 1."
+13,NACIONALIDADE,País de nascimento. Codificação não informada mas é provável que o Brasil seja igual a 1.
 14,ESTADO_RESIDENCIAL,Estado de residência
 15,CIDADE_RESIDENCIAL,Cidade de residência
 16,BAIRRO_RESIDENCIAL,Bairro de residência
 17,FLAG_TELEFONE_RESIDENCIAL,Indica se o requerente possui um telefone residencial
 18,CODIGO_AREA_TELEFONE_RESIDENCIAL,Pseudo-código de três dígitos
-19,TIPO_RESIDENCIA,"Codificação não informada. Em geral, existem tipos como: própria, hipotecada, alugada, dos pais, familiar, etc."
+19,TIPO_RESIDENCIA,Codificação não informada. Em geral existem tipos como: própria hipotecada alugada dos pais familiar etc.
 20,MESES_RESIDENCIA,Tempo na residência atual em meses
 21,FLAG_TELEFONE_MOVEL,Indica se o requerente possui um telefone móvel
 22,FLAG_EMAIL,Indica se o requerente possui um endereço de e-mail
@@ -27,10 +27,10 @@ Var_Id,Característica,Descrição
 26,FLAG_MASTERCARD,Indicador se o requerente é titular de um cartão de crédito MASTERCARD
 27,FLAG_DINERS,Indicador se o requerente é titular de um cartão de crédito DINERS
 28,FLAG_AMERICAN_EXPRESS,Indicador se o requerente é titular de um cartão de crédito AMERICAN EXPRESS
-29,FLAG_OUTROS_CARTOES,"Apesar de ser rotulado como ""FLAG"", esse campo apresenta três valores não explicados"
+29,FLAG_OUTROS_CARTOES,"Apesar de ser rotulado como ""FLAG"" esse campo apresenta três valores não explicados"
 30,QUANT_CONTAS_BANCARIAS,
 31,QUANT_CONTAS_BANCARIAS_ESPECIAIS,
-32,VALOR_PATRIMONIO_PESSOAL,"Valor total dos bens pessoais, como casas, carros, etc., em moeda brasileira (R$)"
+32,VALOR_PATRIMONIO_PESSOAL,Valor total dos bens pessoais como casas carros etc. em moeda brasileira (R$)
 33,QUANT_CARROS,Quantidade de carros que o requerente possui
 34,EMPRESA,Se o requerente forneceu o nome da empresa onde ele/ela trabalha formalmente
 35,ESTADO_PROFISSIONAL,Estado onde o requerente trabalha
@@ -52,4 +52,4 @@ Var_Id,Característica,Descrição
 51,IDADE,Idade do requerente no momento da inscrição
 52,CEP_RESIDENCIAL_3,Três dígitos mais significativos do CEP residencial atual
 53,CEP_PROFISSIONAL_3,Três dígitos mais significativos do CEP do emprego atual
-54,ROTULO_ALVO_MAU=1,"Variável Alvo: BAD=1, BOM=0"
+54,ROTULO_ALVO_MAU=1,Variável Alvo: BAD=1 BOM=0
