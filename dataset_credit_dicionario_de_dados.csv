@@ -1,33 +1,33 @@
-Var_Id,Característica,Descrição
-1,ID_CLIENTE,Número sequencial para o requerente (a ser usado como chave)
-2,TIPO_FUNCIONARIO,Não informado
-3,DIA_PAGAMENTO,Dia do mês para o pagamento da fatura escolhido pelo requerente
-4,TIPO_ENVIO_APLICACAO,Indica se a aplicação foi submetida via internet ou pessoalmente/enviada pelo correio
-5,QUANT_CARTOES_ADICIONAIS,Quantidade de cartões adicionais solicitados no mesmo formulário de aplicação
-6,TIPO_ENDERECO_POSTAL,Indica se o endereço para envio é o endereço residencial ou outro. Codificação não informada.
+ï»¿Var_Id,CaracterÃ­stica,DescriÃ§Ã£o
+1,ID_CLIENTE,NÃºmero sequencial para o requerente (a ser usado como chave)
+2,TIPO_FUNCIONARIO,NÃ£o informado
+3,DIA_PAGAMENTO,Dia do mÃªs para o pagamento da fatura escolhido pelo requerente
+4,TIPO_ENVIO_APLICACAO,Indica se a aplicaÃ§Ã£o foi submetida via internet ou pessoalmente/enviada pelo correio
+5,QUANT_CARTOES_ADICIONAIS,Quantidade de cartÃµes adicionais solicitados no mesmo formulÃ¡rio de aplicaÃ§Ã£o
+6,TIPO_ENDERECO_POSTAL,Indica se o endereÃ§o para envio Ã© o endereÃ§o residencial ou outro. CodificaÃ§Ã£o nÃ£o informada.
 7,SEXO,
-8,ESTADO_CIVIL,Codificação não informada
+8,ESTADO_CIVIL,CodificaÃ§Ã£o nÃ£o informada
 9,QUANT_DEPENDENTES,
-10,NIVEL_EDUCACIONAL,Nível educacional em ordem gradual não informado
+10,NIVEL_EDUCACIONAL,NÃ­vel educacional em ordem gradual nÃ£o informado
 11,ESTADO_NASCIMENTO,
 12,CIDADE_NASCIMENTO,
-13,NACIONALIDADE,País de nascimento. Codificação não informada mas é provável que o Brasil seja igual a 1.
-14,ESTADO_RESIDENCIAL,Estado de residência
-15,CIDADE_RESIDENCIAL,Cidade de residência
-16,BAIRRO_RESIDENCIAL,Bairro de residência
+13,NACIONALIDADE,PaÃ­s de nascimento. CodificaÃ§Ã£o nÃ£o informada mas Ã© provÃ¡vel que o Brasil seja igual a 1.
+14,ESTADO_RESIDENCIAL,Estado de residÃªncia
+15,CIDADE_RESIDENCIAL,Cidade de residÃªncia
+16,BAIRRO_RESIDENCIAL,Bairro de residÃªncia
 17,FLAG_TELEFONE_RESIDENCIAL,Indica se o requerente possui um telefone residencial
-18,CODIGO_AREA_TELEFONE_RESIDENCIAL,Pseudo-código de três dígitos
-19,TIPO_RESIDENCIA,Codificação não informada. Em geral existem tipos como: própria hipotecada alugada dos pais familiar etc.
-20,MESES_RESIDENCIA,Tempo na residência atual em meses
-21,FLAG_TELEFONE_MOVEL,Indica se o requerente possui um telefone móvel
-22,FLAG_EMAIL,Indica se o requerente possui um endereço de e-mail
+18,CODIGO_AREA_TELEFONE_RESIDENCIAL,Pseudo-cÃ³digo de trÃªs dÃ­gitos
+19,TIPO_RESIDENCIA,CodificaÃ§Ã£o nÃ£o informada. Em geral existem tipos como: prÃ³pria hipotecada alugada dos pais familiar etc.
+20,MESES_RESIDENCIA,Tempo na residÃªncia atual em meses
+21,FLAG_TELEFONE_MOVEL,Indica se o requerente possui um telefone mÃ³vel
+22,FLAG_EMAIL,Indica se o requerente possui um endereÃ§o de e-mail
 23,RENDA_PESSOAL_MENSAL,Renda mensal regular pessoal do requerente em moeda brasileira (R$)
-24,OUTRAS_RENDAS,Outras rendas mensais médias do requerente em moeda brasileira (R$)
-25,FLAG_VISA,Indicador se o requerente é titular de um cartão de crédito VISA
-26,FLAG_MASTERCARD,Indicador se o requerente é titular de um cartão de crédito MASTERCARD
-27,FLAG_DINERS,Indicador se o requerente é titular de um cartão de crédito DINERS
-28,FLAG_AMERICAN_EXPRESS,Indicador se o requerente é titular de um cartão de crédito AMERICAN EXPRESS
-29,FLAG_OUTROS_CARTOES,"Apesar de ser rotulado como ""FLAG"" esse campo apresenta três valores não explicados"
+24,OUTRAS_RENDAS,Outras rendas mensais mÃ©dias do requerente em moeda brasileira (R$)
+25,FLAG_VISA,Indicador se o requerente Ã© titular de um cartÃ£o de crÃ©dito VISA
+26,FLAG_MASTERCARD,Indicador se o requerente Ã© titular de um cartÃ£o de crÃ©dito MASTERCARD
+27,FLAG_DINERS,Indicador se o requerente Ã© titular de um cartÃ£o de crÃ©dito DINERS
+28,FLAG_AMERICAN_EXPRESS,Indicador se o requerente Ã© titular de um cartÃ£o de crÃ©dito AMERICAN EXPRESS
+29,FLAG_OUTROS_CARTOES,"Apesar de ser rotulado como ""FLAG"" esse campo apresenta trÃªs valores nÃ£o explicados"
 30,QUANT_CONTAS_BANCARIAS,
 31,QUANT_CONTAS_BANCARIAS_ESPECIAIS,
 32,VALOR_PATRIMONIO_PESSOAL,Valor total dos bens pessoais como casas carros etc. em moeda brasileira (R$)
@@ -36,20 +36,20 @@ Var_Id,Característica,Descrição
 35,ESTADO_PROFISSIONAL,Estado onde o requerente trabalha
 36,CIDADE_PROFISSIONAL,Cidade onde o requerente trabalha
 37,BAIRRO_PROFISSIONAL,Bairro onde o requerente trabalha
-38,FLAG_TELEFONE_PROFISSIONAL,Indica se o número de telefone profissional foi fornecido
-39,CODIGO_AREA_TELEFONE_PROFISSIONAL,Pseudo-código de três dígitos
+38,FLAG_TELEFONE_PROFISSIONAL,Indica se o nÃºmero de telefone profissional foi fornecido
+39,CODIGO_AREA_TELEFONE_PROFISSIONAL,Pseudo-cÃ³digo de trÃªs dÃ­gitos
 40,MESES_NO_TRABALHO,Tempo no emprego atual em meses
-41,CODIGO_PROFISSAO,Código profissional do requerente. Codificação não informada
-42,TIPO_OCUPACAO,Codificação não informada
-43,CODIGO_PROFISSAO_CONJUGE,Código profissional do cônjuge. Codificação não informada
-44,NIVEL_EDUCACIONAL_CONJUGE,Nível educacional do cônjuge em ordem gradual não informado
-45,FLAG_DOCUMENTO_RESIDENCIAL,Indicador de confirmação documental do endereço residencial
-46,FLAG_RG,Indicador de confirmação documental do número do cartão de cidadão
-47,FLAG_CPF,Indicador de confirmação documental do status de contribuinte
-48,FLAG_COMPROVANTE_RENDA,Indicador de confirmação documental da renda
-49,PRODUTO,Tipo de produto de crédito aplicado. Codificação não informada
-50,FLAG_REGISTRO_ACSP,Indicador se o requerente possui alguma inadimplência de crédito anterior
-51,IDADE,Idade do requerente no momento da inscrição
-52,CEP_RESIDENCIAL_3,Três dígitos mais significativos do CEP residencial atual
-53,CEP_PROFISSIONAL_3,Três dígitos mais significativos do CEP do emprego atual
-54,ROTULO_ALVO_MAU=1,Variável Alvo: BAD=1 BOM=0
+41,CODIGO_PROFISSAO,CÃ³digo profissional do requerente. CodificaÃ§Ã£o nÃ£o informada
+42,TIPO_OCUPACAO,CodificaÃ§Ã£o nÃ£o informada
+43,CODIGO_PROFISSAO_CONJUGE,CÃ³digo profissional do cÃ´njuge. CodificaÃ§Ã£o nÃ£o informada
+44,NIVEL_EDUCACIONAL_CONJUGE,NÃ­vel educacional do cÃ´njuge em ordem gradual nÃ£o informado
+45,FLAG_DOCUMENTO_RESIDENCIAL,Indicador de confirmaÃ§Ã£o documental do endereÃ§o residencial
+46,FLAG_RG,Indicador de confirmaÃ§Ã£o documental do nÃºmero do cartÃ£o de cidadÃ£o
+47,FLAG_CPF,Indicador de confirmaÃ§Ã£o documental do status de contribuinte
+48,FLAG_COMPROVANTE_RENDA,Indicador de confirmaÃ§Ã£o documental da renda
+49,PRODUTO,Tipo de produto de crÃ©dito aplicado. CodificaÃ§Ã£o nÃ£o informada
+50,FLAG_REGISTRO_ACSP,Indicador se o requerente possui alguma inadimplÃªncia de crÃ©dito anterior
+51,IDADE,Idade do requerente no momento da inscriÃ§Ã£o
+52,CEP_RESIDENCIAL_3,TrÃªs dÃ­gitos mais significativos do CEP residencial atual
+53,CEP_PROFISSIONAL_3,TrÃªs dÃ­gitos mais significativos do CEP do emprego atual
+54,ROTULO_ALVO_MAU=1,VariÃ¡vel Alvo: BAD=1 BOM=0
